@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../IMG/fondo1.jpg);
+    height: auto;
+    background-size: cover;
+}
+@font-face{
+    font-family: holyfat;
+    src: url(../Font/Holyfat.ttf);
+}
+.text-holyfat{
+    font-family: holyfat;
+    font-size: 40px;
+}
+.nav-link{
+    color: #4cda00;
+}
+.nav-link:hover{
+    color: beige;
+    background-color: #4cda00;
+}
+.barra-menu{
+    background: #fff;
+    border-radius: 20px;
+    width: 500px;
+    height: 70px;   
+}
+
+
+/* CLASE IMAGEN PERRO, TEXTO Y BOTON */
+.strong{
+    font-weight: 600;
+    font-size: 50px;
+}
+.cc{
+    color: #4cda00;
+}
+.ccc{
+    color: #4cda00;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: -1rem;
+}
+.pp{
+    color: #35BBD3;
+    font-size: larger;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.button1{
+    background-color: #00db00 !important;
+    font-family: 'holyfat';
+    border-radius: 50%;
+    justify-content: center;
+    border: #00db00;
+    width: 15rem;
+    height: 6rem;
+}
+.button1:hover{
+    background-color: #4cda0071 !important;
+}
+.bt{
+    width: 12rem; 
+}
+
+
+/* OBJETIVO Y VIDEO */
+.ob{
+    font-family: 'holyfat';
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 2rem;
+    color: #00db00;
+    font-family: holyfat;
+    font-size: 50px;
+}
+.co{
+    background-color: #00db00d3;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* SLIDER Y TEMAS  */
+.ct{
+    background-color: #00db00d3;
+    color: white;
+    font-size: 20px;
+    padding: 1.2rem;
+}
+
+
+/* BENEFICIOS E ICONOS */
+.bf{
+    font-family: 'holyfat';
+    color: #00db00;
+    font-family: holyfat;
+    font-size: 50px;  
+}
+.ic{
+    transition: all 0.08s ease;
+}
+.ic:hover{
+    transition: all 0.08s ease;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+
+/* FOOTER  */
+.container-footer{
+    background-color: rgba(255, 255, 255, 0.589); 
+}
+.logosf{
+    width: 3rem;
+    height: 3rem;
+}
